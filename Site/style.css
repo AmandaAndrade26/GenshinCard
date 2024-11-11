@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #fafafa;
+    display: flex;
+}
+.CardSection{
+    background-color: blanchedalmond;
+    height: 450px;
+    width: 100vw;
+}
+.CardArticle{
+    background-color: rgb(177, 139, 83);
+    top: 30px;
+    display: flex;
+    height: 400px;
+}
+#ImgPersonagemLumine{
+    display: flex;
+    position: absolute;
+}
