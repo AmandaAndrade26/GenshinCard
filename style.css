@@ -7,7 +7,7 @@ body{
     background-color: #fafafa;
     display: flex;
 }
-#MainViajante{
+.BackGroundPersonagem{
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -143,6 +143,11 @@ body{
 #BarraConexao1Viajante{
     background-color: rgb(30, 49, 99);
 }
+#BarraConexao2Viajante{
+    background-color: rgb(30, 49, 99);
+    top: 130px;
+    position: absolute;
+}
 .BarraConexao{
     margin-top: 60px;
     width: 250px;
@@ -153,9 +158,17 @@ body{
     margin: 10px;
     width: 70px;
 }
-.NomeConexao{
+.NomeConexao1{
     left: 90px;
     top:90px;
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    color: #ffffff;
+}
+.NomeConexao{
+    left: 90px;
+    top:30px;
     display: flex;
     position: absolute;
     font-size: 30px;
