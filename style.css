@@ -138,7 +138,7 @@ body{
     position: absolute;
     width: 260px;
     height: 400px;
-    left: 630px;
+    left: 590px;
 }
 #BarraConexao1Viajante{
     background-color: #193c72;
@@ -185,7 +185,7 @@ body{
     position: absolute;
     width: 260px;
     height: 400px;
-    left: 957px;
+    left: 890px;
 }
 .Sticker1{
     background-color: rgb(202 168 140);
@@ -221,6 +221,61 @@ body{
     position: relative;
     height: 203px;
     top: 12px;
+}
+.BarraInfo{
+    background-color: #fafafa;
+    width: 390px;
+    height: 120px;
+    left: 1125px;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.384);
+
+}
+.BarraInfo2{
+    background-color: #fafafa;
+    top:140px;
+    width: 390px;
+    height: 120px;
+    left: 1125px;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.384);
+
+}
+.BarraInfo3{
+    background-color: #fafafa;
+    top:280px;
+    width: 390px;
+    height: 120px;
+    left: 1125px;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.384);
+
+}
+.MolduraInfo{
+    height: 100px;
+    position: absolute;
+}
+.ImgInfo{
+    margin: 5px;
+    height: 110px;
+}
+.tituloInfo{
+    position: absolute;
+    top: 15px;
+    left: 130px;
+    font-size: 30px;
+}
+.textoInfo{
+    position: absolute;
+    font-size: 20px;
+    font-family:serif;
+    top: 50px;
+    left: 130px;
+    overflow: auto;
+    
 }
 
 /*fonte nao apagar*/
