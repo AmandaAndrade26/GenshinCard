@@ -99,7 +99,6 @@ body{
     position: absolute;
 }
 .Arte1{
-    background-image: linear-gradient(rgba(255, 0, 0, 0.4)), (rgba(255, 36, 36, 0.4));
     padding: 0px;
     position: absolute;
     display: flex;
@@ -107,6 +106,7 @@ body{
     top: 60px;
     left: 80px;
     border-radius: 40px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.384);
 }
 .Arte2{
     padding: 0px;
@@ -116,6 +116,7 @@ body{
     top: 60px;
     left: 330px;
     border-radius: 40px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.384);
 }
 .tituloArte{
     left: 90px;
@@ -188,7 +189,7 @@ body{
     left: 990px;
 }
 .Sticker1{
-    background-color: rgb(202 168 140);
+    background-color: #3971a0;
     height: 190px;
     width: 190px;
     position: absolute;
@@ -206,7 +207,7 @@ body{
 }
 
 .Sticker2{
-    background-color: rgb(202 168 140);
+    background-color:#3971a0;
     height: 190px;
     width: 190px;
     position: absolute;
@@ -281,8 +282,8 @@ body{
     position: absolute;
     background-color: #a53939;
     border-radius: 30px;
-    top: 450px;
-    left: 96vw;
+    top: 510px;
+    left: 95vw;
     width: 50px;
     height: 50px;
     background-image: url(./Seta.jpg);
@@ -292,10 +293,12 @@ body{
     position: absolute;
     background-color: #a53939;
     border-radius: 30px;
-    top: 450px;
+    top: 510px;
     left: 1vw;
     width: 50px;
     height: 50px;
+    background-image: url(./Seta.jpg);
+    background-size: 50px;
 }
 
 /*fonte nao apagar*/

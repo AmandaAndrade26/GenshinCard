@@ -11,7 +11,7 @@ body{
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-image: url(./Personagens/Venti.png);
+    background-image: url(./Personagens/Raiden.png);
     background-position:450px;
     background-size: 2100px;
     background-repeat: no-repeat;
@@ -21,7 +21,7 @@ body{
 #Card{
     display: flex;
     position:relative;
-    background-image: url('./Cartao/CartaoVenti.png');
+    background-image: url('./Cartao/CartaoShogun.png');
     background-size: cover;
     background-position: center;
     width: 90vw;
@@ -37,7 +37,7 @@ body{
 }
 .InfoNome{
     position: absolute;
-    width: 800px;
+    width: 850px;
     margin: 30px;
 }
 .NomeDoPersonagem{
@@ -53,7 +53,7 @@ body{
     top:160px;
     position: absolute;
     overflow: auto;
-    font-size: 27px;
+    font-size: 28px;
     color: #ffffff;
     font-family:serif;
 }
@@ -65,8 +65,8 @@ body{
     width: 820px;
     display: flex;
     position:absolute;
-    top: -72px;
-    left: 800px;
+    top: -118px;
+    left: 907px;
 }
 .InfoSection{
     top: 430px;
@@ -119,15 +119,15 @@ body{
     left: 620px;
 }
 #BarraConexao1{
-    background-color: #5fbeb6;
+    background-color: #d492fe;
 }
 #BarraConexao2{
-    background-color: #46Aba5;
+    background-color: #a28cf1;
     top: 120px;
     position: absolute;
 }
 #BarraConexao3{
-    background-color: #359095;
+    background-color: #8269e9;
     top: 240px;
     position: absolute;
 }
@@ -166,7 +166,7 @@ body{
     left: 990px;
 }
 .Sticker1{
-    background-color: #46Aba5;
+    background-color: #a28cf1;
     height: 190px;
     width: 190px;
     position: absolute;
@@ -184,7 +184,7 @@ body{
 }
 
 .Sticker2{
-    background-color: #46Aba5;
+    background-color: #a28cf1;
     height: 190px;
     width: 190px;
     position: absolute;
