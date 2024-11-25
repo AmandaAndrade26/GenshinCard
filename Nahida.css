@@ -1,0 +1,285 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #fafafa;
+    display: flex;
+}
+.BackGroundPersonagem{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./Personagens/Nahida.png);
+    background-position:450px;
+    background-size: 2100px;
+    background-repeat: no-repeat;
+    position: absolute;
+    opacity: 30%;
+}
+#Card{
+    display: flex;
+    position:relative;
+    background-image: url('./Cartao/CartãoNahida.png');
+    background-size: cover;
+    background-position: center;
+    width: 90vw;
+    left: 20px;
+    margin: 60px;
+    height: 400px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.384);
+}
+.CardSection{
+    height: 500px;
+    width: 100vw;
+}
+.InfoNome{
+    position: absolute;
+    width: 800px;
+    margin: 30px;
+}
+.NomeDoPersonagem{
+    left: 20px;
+    top:70px;
+    display: flex;
+    position: absolute;
+    font-size: 60px;
+    color: #ffffff;
+}
+.InfoPersonagem{
+    left: 20px;
+    top:160px;
+    position: absolute;
+    overflow: auto;
+    font-size: 27px;
+    color: #ffffff;
+    font-family:serif;
+}
+.Imgs{
+    display: flex;
+    position: absolute;
+}
+#ImgPersonagem{
+    width: 820px;
+    display: flex;
+    position:absolute;
+    top: -42px;
+    left: 800px;
+}
+.InfoSection{
+    top: 430px;
+    height: 410px;
+    width: 100vw;
+    left: -80px;
+    position: absolute;
+}
+.Arte1{
+    padding: 0px;
+    position: absolute;
+    display: flex;
+    width: 220px;
+    top: 60px;
+    left: 80px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.384);
+}
+.Arte2{
+    padding: 0px;
+    position: absolute;
+    display: flex;
+    width: 220px;
+    top: 60px;
+    left: 330px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.384);
+}
+.tituloArte{
+    left: 90px;
+    top:0px;
+    display: flex;
+    position: absolute;
+    font-size: 40px;
+    color: #242424;
+}
+.titulo{
+    left: 0px;
+    top:0px;
+    display: flex;
+    position: absolute;
+    font-size: 40px;
+    color: #242424;
+}
+.Conexoes{
+    display: flex;
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 620px;
+}
+#BarraConexao1{
+    background-color: #d3ebc5;
+}
+#BarraConexao2{
+    background-color: #b5dba6;
+    top: 120px;
+    position: absolute;
+}
+#BarraConexao3{
+    background-color: #87b76b;
+    top: 240px;
+    position: absolute;
+}
+.BarraEstrutura{
+    margin-top: 60px;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.384);
+}
+.ImgConexao{
+    margin: 10px;
+    width: 70px;
+}
+.NomeConexao1{
+    left: 90px;
+    top:90px;
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    color: #ffffff;
+}
+.NomeConexao{
+    left: 90px;
+    top:30px;
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    color: #ffffff;
+}
+.EspacoStickers{
+    display: flex;
+    position: absolute;
+    width: 260px;
+    height: 400px;
+    left: 990px;
+}
+.Sticker1{
+    background-color: #b5dba6;
+    height: 190px;
+    width: 190px;
+    position: absolute;
+    top: 6px;
+    display: flex;
+    align-items: center;
+    border-radius: 48px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.384);
+}
+.Sticker1 img{
+    left: 12px;
+    position: relative;
+    height: 170px;
+    top: -6px;
+}
+
+.Sticker2{
+    background-color: #b5dba6;
+    height: 190px;
+    width: 190px;
+    position: absolute;
+    top: 210px;
+    display: flex;
+    align-items: center;
+    border-radius: 48px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.384);
+}
+.Sticker2 img{
+    left: 10px;
+    position: relative;
+    height: 170px;
+    top: -6px;
+}
+.BarraInfo{
+    background-color: #fafafa;
+    width: 545px;
+    height: 120px;
+    left: 1250px;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.384);
+
+}
+.BarraInfo2{
+    background-color: #fafafa;
+    top:140px;
+    width: 545px;
+    height: 120px;
+    left: 1250px;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.384);
+
+}
+.BarraInfo3{
+    background-color: #fafafa;
+    top:280px;
+    width: 545px;
+    height: 120px;
+    left: 1250px;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.384);
+
+}
+.MolduraInfo{
+    height: 100px;
+    position: absolute;
+}
+.ImgInfo{
+    margin: 5px;
+    height: 110px;
+}
+.tituloInfo{
+    position: absolute;
+    top: 15px;
+    left: 130px;
+    font-size: 30px;
+}
+.textoInfo{
+    position: absolute;
+    font-size: 20px;
+    font-family:serif;
+    top: 50px;
+    left: 130px;
+    overflow: auto;
+    
+}
+.SetaProximo{
+    position: absolute;
+    background-color: #a53939;
+    border-radius: 30px;
+    top: 450px;
+    left: 91vw;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Seta.jpg);
+    background-size: 50px;
+}
+.SetaVoltar{
+    position: absolute;
+    background-color: #a53939;
+    border-radius: 30px;
+    top: 450px;
+    left: -3vw;
+    width: 50px;
+    height: 50px;
+    background-image: url(./Seta.jpg);
+    background-size: 50px;
+}
+/*fonte nao apagar*/
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Literata", serif;
+    font-weight: 500;
+}
