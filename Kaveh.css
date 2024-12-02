@@ -11,7 +11,7 @@ body{
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-image: url(./Personagens/Venti.png);
+    background-image: url(./Personagens/Kaveh.png);
     background-position:450px;
     background-size: 2100px;
     background-repeat: no-repeat;
@@ -21,7 +21,7 @@ body{
 #Card{
     display: flex;
     position:relative;
-    background-image: url('./Cartao/CartaoVenti.png');
+    background-image: url('./Cartao/CartaoKaveh.png');
     background-size: cover;
     background-position: center;
     width: 90vw;
@@ -62,11 +62,11 @@ body{
     position: absolute;
 }
 #ImgPersonagem{
-    width: 820px;
+    width: 670px;
     display: flex;
     position:absolute;
-    top: -72px;
-    left: 800px;
+    top: -118px;
+    left: 900px;
 }
 .InfoSection{
     top: 430px;
@@ -119,15 +119,15 @@ body{
     left: 620px;
 }
 #BarraConexao1{
-    background-color: #5fbeb6;
+    background-color: #978471;
 }
 #BarraConexao2{
-    background-color: #46Aba5;
+    background-color: #46636b;
     top: 120px;
     position: absolute;
 }
 #BarraConexao3{
-    background-color: #359095;
+    background-color: #652b26;
     top: 240px;
     position: absolute;
 }
@@ -159,15 +159,15 @@ body{
     color: #ffffff;
 }
 #PrimeiraConexao:hover{
-    color:#8cfaf1;
+    color:#dfcebd;
     transition: 1000ms;
 }
 #SegundaConexao:hover{
-    color:#72d6cf;
+    color:#87b5c2;
     transition: 1000ms;
 }
 #TerceiraConexao:hover{
-    color:#46c7ce;
+    color:#b64f46;
     transition: 1000ms;
 }
 .EspacoStickers{
@@ -178,7 +178,7 @@ body{
     left: 990px;
 }
 .Sticker1{
-    background-color: #46Aba5;
+    background-color: #46636b;
     height: 190px;
     width: 190px;
     position: absolute;
@@ -196,7 +196,7 @@ body{
 }
 
 .Sticker2{
-    background-color: #46Aba5;
+    background-color: #46636b;
     height: 190px;
     width: 190px;
     position: absolute;

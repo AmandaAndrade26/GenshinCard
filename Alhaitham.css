@@ -11,9 +11,9 @@ body{
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-image: url(./Personagens/Venti.png);
-    background-position:450px;
-    background-size: 2100px;
+    background-image: url(./Personagens/Alhaitham.png);
+    background-position:300px;
+    background-size: 2600px;
     background-repeat: no-repeat;
     position: absolute;
     opacity: 30%;
@@ -21,7 +21,7 @@ body{
 #Card{
     display: flex;
     position:relative;
-    background-image: url('./Cartao/CartaoVenti.png');
+    background-image: url('./Cartao/CartaoAlhaitham.png');
     background-size: cover;
     background-position: center;
     width: 90vw;
@@ -62,10 +62,10 @@ body{
     position: absolute;
 }
 #ImgPersonagem{
-    width: 820px;
+    width: 950px;
     display: flex;
     position:absolute;
-    top: -72px;
+    top: -74px;
     left: 800px;
 }
 .InfoSection{
@@ -119,15 +119,15 @@ body{
     left: 620px;
 }
 #BarraConexao1{
-    background-color: #5fbeb6;
+    background-color: #bab48e;
 }
 #BarraConexao2{
-    background-color: #46Aba5;
+    background-color: #467e8c;
     top: 120px;
     position: absolute;
 }
 #BarraConexao3{
-    background-color: #359095;
+    background-color: #33414b;
     top: 240px;
     position: absolute;
 }
@@ -159,15 +159,15 @@ body{
     color: #ffffff;
 }
 #PrimeiraConexao:hover{
-    color:#8cfaf1;
+    color:#f5f0d0;
     transition: 1000ms;
 }
 #SegundaConexao:hover{
-    color:#72d6cf;
+    color:#87b5c2;
     transition: 1000ms;
 }
 #TerceiraConexao:hover{
-    color:#46c7ce;
+    color:#8f8f8f;
     transition: 1000ms;
 }
 .EspacoStickers{
@@ -178,7 +178,7 @@ body{
     left: 990px;
 }
 .Sticker1{
-    background-color: #46Aba5;
+    background-color: #467e8c;
     height: 190px;
     width: 190px;
     position: absolute;
@@ -196,7 +196,7 @@ body{
 }
 
 .Sticker2{
-    background-color: #46Aba5;
+    background-color: #467e8c;
     height: 190px;
     width: 190px;
     position: absolute;

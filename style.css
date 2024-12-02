@@ -181,6 +181,18 @@ body{
     font-size: 30px;
     color: #ffffff;
 }
+#PrimeiraConexao:hover{
+    color:#4190d1;
+    transition: 1000ms;
+}
+#SegundaConexao:hover{
+    color:#63c0eb;
+    transition: 1000ms;
+}
+#TerceiraConexao:hover{
+    color:#c2ecff;
+    transition: 1000ms;
+}
 .EspacoStickers{
     display: flex;
     position: absolute;
@@ -280,25 +292,25 @@ body{
 }
 .SetaProximo{
     position: absolute;
-    background-color: #a53939;
     border-radius: 30px;
     top: 510px;
     left: 95vw;
-    width: 50px;
-    height: 50px;
-    background-image: url(./Seta.jpg);
-    background-size: 50px;
+    width: 70px;
+    height: 70px;
+    background-image: url(/img/SetaProximo.png);
+    background-size: 60px;
+    background-repeat: no-repeat
 }
 .SetaVoltar{
     position: absolute;
-    background-color: #a53939;
     border-radius: 30px;
     top: 510px;
     left: 1vw;
-    width: 50px;
-    height: 50px;
-    background-image: url(./Seta.jpg);
-    background-size: 50px;
+    width: 70px;
+    height: 70px;
+    background-image: url(/img/SetaVoltar.png);
+    background-size: 60px;
+    background-repeat: no-repeat
 }
 
 /*fonte nao apagar*/
