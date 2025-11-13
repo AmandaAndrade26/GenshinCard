@@ -297,7 +297,7 @@ body{
     left: 95vw;
     width: 70px;
     height: 70px;
-    background-image: url(/img/SetaProximo.png);
+    background-image: url(./img/SetaProximo.png);
     background-size: 60px;
     background-repeat: no-repeat
 }
@@ -308,7 +308,7 @@ body{
     left: 1vw;
     width: 70px;
     height: 70px;
-    background-image: url(/img/SetaVoltar.png);
+    background-image: url(./img/SetaVoltar.png);
     background-size: 60px;
     background-repeat: no-repeat
 }
